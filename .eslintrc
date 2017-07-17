@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "semi": [2, "never"],
+    "strict": [2, "never"],
+    "import/no-unresolved": [0],
+    "space-before-blocks": [0],
+    "new-cap": [0],
+    "max-len": [1, 120, 2],
+    "prefer-const": [0],
+    "dot-notation": [0],
+    "no-underscore-dangle": [0],
+    "react/jsx-boolean-value": [2,"always"],
+    "consistent-return": [0],
+    "jsx-quotes": [2, "prefer-single"],
+    "global-require": [0],
+    "react/sort-comp": [0],
+    "array-callback-return": [0],
+    "no-nested-ternary": [0],
+    "no-unused-expressions": [1],
+    "no-unused-vars": [0]
+  }
+}
